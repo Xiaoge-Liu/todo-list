@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Todo List</h1>
+<div class="input-area">
+<input id="taskInput" placeholder="输入待办事项">
+<button onclick="addTask()">添加</button>
+</div>
+<div class="stats">剩余任务：<span id="count">0</span></div>
+<ul id="taskList"></ul>
+<button class="clear" onclick="clearCompleted()">清理已完成</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
